@@ -1,0 +1,8 @@
+title SPA New Note, Raoul Rapeli
+
+note over browser:
+Pressing "save" button
+end note
+
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+server-->browser: [{content: "Tero", date: "2022-06-11T06:43:44.702Z"}]
